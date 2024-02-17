@@ -11,7 +11,7 @@ echo "-----------------------------------" >> "$LOG_FILE"
 date >> "$LOG_FILE"
 
 # Run the babylond command and capture both stdout and stderr, and append to the log file
-$BABYLOND tx epoching delegate bbnvaloper1m4el0dl4w5aks5u9p8whxhy3jf69w6avc7nz4v 1000000ubbn --from wallet --chain-id bbn-test-2 --gas-adjustment 1.4 --gas auto --fees 10ubbn -y >> "$LOG_FILE" 2>&1
+$BABYLOND tx epoching delegate bbnvaloper1ayflc7xj7elx86gd9x2hgdsnn2hralaz43d447 1000000ubbn --from wallet --chain-id bbn-test-2 --gas-adjustment 1.4 --gas auto --fees 10ubbn -y >> "$LOG_FILE" 2>&1
 
 # Display a message in the log file indicating the end of the script
 echo "Script execution completed." >> "$LOG_FILE"
